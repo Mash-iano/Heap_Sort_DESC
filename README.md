@@ -35,6 +35,7 @@ I ran several stress tests to see how the code handles different scales. Here is
 | **Medium (9,999)** | 280k       | 140k | Finished in about 2ms
 | **Large (89,786)** | 3 Million  | 1.5 Million |Finished in 16ms
 | **Huge (1.78M)**   | 75 Million | 38 Million | Took about 0.3second
+![Min-Heap Diagram](image.png)
 
 ## 6. How to Run It
 1.  **Compile and Run:** Use a C++ compiler and run the main.cpp in this project
