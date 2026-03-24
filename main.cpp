@@ -23,4 +23,24 @@ int main() {
 
 void heapSortDescending(int arr[], int n, long long &comps, long long &swaps) {
     // Sorting logic to be implemented
+    // Phase 1: Build the Min-Heap
+    for (int i = n / 2 - 1; i >= 0; i--) {
+        int curr = i;
+        while (true) {
+            int left = 2 * curr + 1, right = 2 * curr + 2, smallest = curr;
+            if (left < n) {
+                comps++;
+                if (arr[left] < arr[smallest]) smallest = left;
+            }
+            if (right < n) {
+                comps++;
+                if (arr[right] < arr[smallest]) smallest = right;
+            }
+            if (smallest != curr) {
+                std::swap(arr[curr], arr[smallest]);
+                swaps++;
+                curr = smallest;
+            } else break;
+        }
+    }
 }
