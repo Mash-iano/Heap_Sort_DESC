@@ -31,10 +31,10 @@ If you gave my code the numbers `[10, 5, 8]`, here is the thought process:
 I ran several stress tests to see how the code handles different scales. Here is what I found:
 
 | Scale (n)          | Comparisons | Swaps | time
-| **Small (10)**     | ~35         | ~20   | Instant. 
-| **Medium (9,999)** | ~280k       | ~140k | Finished in about 2ms
-| **Large (89,786)** | ~3 Million  | ~1.5 Million |Finished in 16ms
-| **Huge (1.78M)**   | ~75 Million | ~38 Million | Took about 0.3second
+| **Small (10)**     | 35         | 20   | Instant. 
+| **Medium (9,999)** | 280k       | 140k | Finished in about 2ms
+| **Large (89,786)** | 3 Million  | 1.5 Million |Finished in 16ms
+| **Huge (1.78M)**   | 75 Million | 38 Million | Took about 0.3second
 
 ## 6. How to Run It
 1.  **Compile and Run:** Use a C++ compiler and run the main.cpp in this project:
