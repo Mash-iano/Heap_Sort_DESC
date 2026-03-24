@@ -37,6 +37,9 @@ I ran several stress tests to see how the code handles different scales. Here is
 | **Huge (1.78M)**   | 75 Million | 38 Million | Took about 0.3second
 
 ## 6. How to Run It
-1.  **Compile and Run:** Use a C++ compiler and run the main.cpp in this project:
+1.  **Compile and Run:** Use a C++ compiler and run the main.cpp in this project
+
+g++ main.cpp -o heapsort
+./heapsort
 
 2.  **Input:** Tell the program how many numbers you have, then feed them in. 
